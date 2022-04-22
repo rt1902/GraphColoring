@@ -1,4 +1,4 @@
-package main;
+package main.operationsOnFile;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -14,7 +14,7 @@ public class WriteToTxt {
                 for (String str : arr) {
                     line.append(str).append(" ");
                 }
-                myWriter.write(line.toString() + "\n");
+                myWriter.write(line + "\n");
             }
 
             myWriter.close();
